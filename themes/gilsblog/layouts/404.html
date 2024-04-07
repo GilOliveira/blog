@@ -1,13 +1,9 @@
-{{ define "main" }}
+{{ define "main"}}
+  {{ partial "hero" (dict "Title" "404 Error" "Subtitle" "Ops, that's awkward...")}}
+   
+<div class="prose feed">
+  {{with .Site.Params.text404}}{{. | safeHTML}}{{else}}Looks like you're lost, go back to the <a href='/'>home</a>.{{end}}
 
-<article class="flex flex-col gap-3">
-  <header>
-    <h2 class="title-small">{{ i18n "404_title" }}</h2>
-  </header>
-
-  <section>
-    <p>{{ i18n "404_text" }}</p>
-  </section>
-</article>
+</div>   
 
 {{ end }}

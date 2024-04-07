@@ -59,19 +59,19 @@ export default defineConfig({
             list: true,
             options: [
               {
-                value: "explainer",
+                value: "Explainer",
                 label: "Explainer",
               },
               {
-                value: "opinion",
+                value: "Opinion",
                 label: "Opinion",
               },
               {
-                value: "testimony",
+                value: "Testimony",
                 label: "Testimony",
               },
               {
-                value: "tutorial",
+                value: "Tutorial",
                 label: "Tutorial",
               },
             ],

@@ -1,6 +1,7 @@
 ---
 date: 2020-07-25
 title: "COVID-19 vaccine: the costs and the benefits"
+categories: [Explainer]
 ---
 
 We have been bombared with news telling us _it's possible_ to be fully vaccinated and still catch COVID-19 and that _it's possible_ to get serious side effects from the vaccine. This constant bombarding of what can happen after getting the shot can place doubts in the mind of the most sober-minded of individuals.

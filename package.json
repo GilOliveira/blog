@@ -5,14 +5,14 @@
       "tinacms": "project"
     },
     "devDependencies": {
-      "@tailwindcss/typography": "salinger",
+      "@tailwindcss/typography": "gilsblog",
       "@tinacms/cli": "project",
-      "autoprefixer": "salinger",
-      "daisyui": "salinger",
-      "postcss": "salinger",
-      "postcss-cli": "salinger",
-      "postcss-import": "salinger",
-      "tailwindcss": "salinger"
+      "autoprefixer": "gilsblog",
+      "daisyui": "gilsblog",
+      "postcss": "gilsblog",
+      "postcss-cli": "gilsblog",
+      "postcss-import": "gilsblog",
+      "tailwindcss": "gilsblog"
     }
   },
   "dependencies": {
