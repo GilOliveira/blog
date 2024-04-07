@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules
+
+# Hugo
+/public/
+/resources/_gen/
+tmp
+.env

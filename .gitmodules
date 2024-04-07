@@ -1,0 +1,7 @@
+[submodule "themes/enchanted-lowkey"]
+	path = themes/enchanted-lowkey
+	url = https://github.com/nixentric/Lowkey-Hugo-Theme.git
+[submodule "themes/lowkey"]
+	path = themes/lowkey
+	url = git@github.com:GilOliveira/Lowkey-Hugo-Theme.git
+	branch = google-analytics
