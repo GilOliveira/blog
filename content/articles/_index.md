@@ -1,6 +1,3 @@
 ---
-title: "Articles"
-header: "Latest Posts" # Optional
+title: "All Articles"
 ---
-
-See What I’ve Written Lately

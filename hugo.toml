@@ -48,6 +48,7 @@ favicon = "/img/scientist.webp"
 
 [params.footer]
 copy = '2024 Gil Poiares Oliveira'
+credit = 'Made with <i class="fa-solid fa-square-h"></i> Hugo, <i class="fa-solid fa-wind"></i> Tailwind, <i class="fa-duotone fa-flower-daffodil"></i> daisyUI, and <i class="fa-solid fa-heart"></i>'
 
 # [[params.social]]
 # name = "github"
@@ -70,6 +71,11 @@ weight = 2
 name = "Privacy Policy"
 url = "https://privacy.giloliveira.net"
 weight = 1
+
+[[menu.footer]]
+name = "Acknowledgements"
+url = "/ack"
+weight = 2
 
 [taxonomies]
 category = "categories"
