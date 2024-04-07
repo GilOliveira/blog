@@ -47,6 +47,36 @@ export default defineConfig({
             label: "Draft",
           },
           {
+            label: "Tags",
+            name: "tags",
+            type: "string",
+            list: true,
+          },
+          {
+            label: "Categories",
+            name: "categories",
+            type: "string",
+            list: true,
+            options: [
+              {
+                value: "explainer",
+                label: "Explainer",
+              },
+              {
+                value: "opinion",
+                label: "Opinion",
+              },
+              {
+                value: "testimony",
+                label: "Testimony",
+              },
+              {
+                value: "tutorial",
+                label: "Tutorial",
+              },
+            ],
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",
