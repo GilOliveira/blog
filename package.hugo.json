@@ -1,0 +1,20 @@
+{
+  "author": "Gil Poiares-Oliveira",
+  "dependencies": {
+    "tinacms": "^1.6.1"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.43"
+  },
+  "homepage": "https://blog.gil.lol",
+  "name": "Gil's Blog",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GilOliveira/blog.git"
+  },
+  "scripts": {
+    "build": "tinacms build && hugo build",
+    "dev": "tinacms dev -c \"hugo server -D -p 1313\""
+  },
+  "version": "1.0.0"
+}

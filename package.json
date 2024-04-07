@@ -1,37 +1,42 @@
 {
+  "author": "Gil Poiares-Oliveira",
+  "comments": {
+    "dependencies": {
+      "tinacms": "project"
+    },
+    "devDependencies": {
+      "@tailwindcss/typography": "salinger",
+      "@tinacms/cli": "project",
+      "autoprefixer": "salinger",
+      "daisyui": "salinger",
+      "postcss": "salinger",
+      "postcss-cli": "salinger",
+      "postcss-import": "salinger",
+      "tailwindcss": "salinger"
+    }
+  },
+  "dependencies": {
+    "tinacms": "^1.6.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "@tinacms/cli": "^1.5.43",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.2.1",
+    "postcss": "^8.4.25",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.3.2"
+  },
+  "homepage": "https://blog.gil.lol",
   "name": "Gil's Blog",
-  "author": "Gil Poiares-Oliveiera",
-  "homepage": "https://github.com/GilOliveira/blog",
-  "license": "MIT",
-  "version": "1.0.0",
-  "description": "A Clean and Simple Hugo theme inspired by Adam Wathan's (https://adamwathan.me/) Website.",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GilOliveira/blog.git"
+  },
   "scripts": {
     "build": "tinacms build && hugo build",
     "dev": "tinacms dev -c \"hugo server -D -p 1313\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nixentric/Lowkey-Hugo-Theme.git"
-  },
-  "keywords": [
-    "hugo",
-    "hugo-themes",
-    "clean-themes"
-  ],
-  "bugs": {
-    "url": "https://github.com/nixentric/Lowkey-Hugo-Theme/issues"
-  },
-  "devDependencies": {
-    "@tinacms/cli": "^1.5.43",
-    "@types/node": "^20.12.5",
-    "autoprefixer": "^10.4.13",
-    "cssnano": "^5.1.14",
-    "postcss": "^8.4.20",
-    "postcss-cli": "^10.1.0",
-    "tailwindcss": "^3.2.4"
-  },
-  "dependencies": {
-    "tinacms": "^1.6.1"
-  }
+  "version": "1.0.0"
 }
