@@ -59,6 +59,12 @@ jobs:
           cache: "pnpm"
       - name: Install dependencies
         run: pnpm install
+      - name: "Place secrets in .env file"
+        run: |
+          touch .env
+          echo TINA_PUBLIC_CLIENT_ID=${{ secrets.TINA_PUBLIC_CLIENT_ID }} >> .env
+          echo TINA_TOKEN=${{ secrets.TINA_TOKEN }} >> .env
+          cat .env
       - name: Build TinaCMS
         env:
           TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
