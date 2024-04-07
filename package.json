@@ -7,17 +7,13 @@
   "description": "A Clean and Simple Hugo theme inspired by Adam Wathan's (https://adamwathan.me/) Website.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tinacms build && hugo build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nixentric/Lowkey-Hugo-Theme.git"
   },
-  "keywords": [
-    "hugo",
-    "hugo-themes",
-    "clean-themes"
-  ],
+  "keywords": ["hugo", "hugo-themes", "clean-themes"],
   "bugs": {
     "url": "https://github.com/nixentric/Lowkey-Hugo-Theme/issues"
   },
