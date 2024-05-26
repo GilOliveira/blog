@@ -5,32 +5,17 @@
       "tinacms": "project"
     },
     "devDependencies": {
-      "@tailwindcss/typography": "gilsblog",
-      "@tinacms/cli": "project",
-      "autoprefixer": "gilsblog",
-      "daisyui": "gilsblog",
-      "postcss": "gilsblog",
-      "postcss-cli": "gilsblog",
-      "postcss-import": "gilsblog",
-      "tailwindcss": "gilsblog"
+      "@tinacms/cli": "project"
     }
   },
   "dependencies": {
-    "tinacms": "^1.6.1"
+    "tinacms": "^1.6.3"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.9",
-    "@tinacms/cli": "^1.5.43",
-    "@types/node": "^20.12.5",
-    "autoprefixer": "^10.4.14",
-    "daisyui": "^3.2.1",
-    "postcss": "^8.4.25",
-    "postcss-cli": "^10.1.0",
-    "postcss-import": "^15.1.0",
-    "tailwindcss": "^3.3.2"
+    "@tinacms/cli": "^1.5.45"
   },
   "homepage": "https://blog.gil.lol",
-  "name": "Gil's Blog",
+  "name": "blog-gil",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GilOliveira/blog.git"

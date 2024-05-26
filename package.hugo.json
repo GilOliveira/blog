@@ -13,7 +13,7 @@
     "url": "git+https://github.com/GilOliveira/blog.git"
   },
   "scripts": {
-    "build": "tinacms build && hugo build",
+    "build": "tinacms build && hugo",
     "dev": "tinacms dev -c \"hugo server -D -p 1313\""
   },
   "version": "1.0.0"
