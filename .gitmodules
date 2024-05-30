@@ -10,4 +10,4 @@
 	url = https://github.com/jacksalici/salinger-theme.git
 [submodule "themes/hugo-ficurina"]
 	path = themes/hugo-ficurina
-	url = git@gitlab.com:GilOliveira/hugo-ficurinia.git
+	url = https://gitlab.com/GilOliveira/hugo-ficurinia.git
