@@ -18,7 +18,7 @@ git clone --recurse-submodules git@github.com:GilOliveira/blog
 4. Install npm packages with pnpm.
 
 ```sh
-pnpm instal
+pnpm install
 ```
 
 ## Run Development Server
@@ -28,7 +28,7 @@ pnpm dev
 ```
 
 > [!IMPORTANT]  
-> `pnpm dev` must be run before push to production to update the Tina CMS schema.
+> `pnpm dev` must be run locally before push to production to update the Tina CMS schema.
 
 ## Build locally
 
