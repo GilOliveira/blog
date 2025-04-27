@@ -35,9 +35,9 @@ jobs:
       url: https://github.com
     strategy:
       matrix:
-        node-version: [20]
+        node-version: [22]
     env:
-      HUGO_VERSION: 0.124.1
+      HUGO_VERSION: 0.147.0
     steps:
       - name: Install Hugo CLI
         run: |
