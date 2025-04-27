@@ -1,7 +1,7 @@
 baseURL = "https://blog.gil.lol/"
 title = "Gil's Blog"
 copyright = 'Gil Poiares Oliveira. All rights reserved.'
-theme = "hugo-ficurina"
+theme = "hugo-ficurinia"
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 

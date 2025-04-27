@@ -9,10 +9,10 @@
     }
   },
   "dependencies": {
-    "tinacms": "^1.6.3"
+    "tinacms": "^2.7.5"
   },
   "devDependencies": {
-    "@tinacms/cli": "^1.5.45"
+    "@tinacms/cli": "^1.9.5"
   },
   "homepage": "https://blog.gil.lol",
   "name": "blog-gil",

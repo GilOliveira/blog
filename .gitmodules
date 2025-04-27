@@ -8,6 +8,6 @@
 [submodule "themes/salinger"]
 	path = themes/salinger
 	url = https://github.com/jacksalici/salinger-theme.git
-[submodule "themes/hugo-ficurina"]
-	path = themes/hugo-ficurina
-	url = https://gitlab.com/GilOliveira/hugo-ficurinia.git
+[submodule "themes/hugo-ficurinia"]
+	path = themes/hugo-ficurinia
+	url = git@gitlab.com:gabmus/hugo-ficurinia.git

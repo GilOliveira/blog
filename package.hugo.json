@@ -1,10 +1,10 @@
 {
   "author": "Gil Poiares-Oliveira",
   "dependencies": {
-    "tinacms": "^1.6.1"
+    "tinacms": "^2.7.5"
   },
   "devDependencies": {
-    "@tinacms/cli": "^1.5.43"
+    "@tinacms/cli": "^1.9.5"
   },
   "homepage": "https://blog.gil.lol",
   "name": "Gil's Blog",
